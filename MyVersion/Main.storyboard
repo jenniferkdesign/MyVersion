@@ -114,45 +114,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTn-Zo-zeM">
-                                <rect key="frame" x="143" y="81" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTn-Zo-zeM">
+                                <rect key="frame" x="0.0" y="68" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Meet">
+                                <state key="normal" title="Meet" image="meet">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="Loj-c4-xcE" kind="push" id="1cs-Te-aC7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc2-G9-btt">
-                                <rect key="frame" x="145" y="109" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc2-G9-btt">
+                                <rect key="frame" x="160" y="68" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Join">
+                                <state key="normal" title="Join" image="join">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="ToF-Bf-AXC" kind="push" id="FmA-U6-07L"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuw-fZ-M6h">
-                                <rect key="frame" x="138" y="135" width="44" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuw-fZ-M6h">
+                                <rect key="frame" x="0.0" y="316" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Space">
+                                <state key="normal" title="Space" image="space">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="LZQ-lA-Y2x" kind="push" id="YgP-SN-YCT"/>
+                                    <segue destination="4XM-el-DER" kind="push" id="EpA-xj-bV3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1E-5V-D6L">
-                                <rect key="frame" x="138" y="165" width="42" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1E-5V-D6L">
+                                <rect key="frame" x="160" y="316" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="About">
+                                <state key="normal" title="About" image="about">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="VvF-VF-XNU" kind="push" id="KSA-dA-909"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -201,24 +198,15 @@
             </objects>
             <point key="canvasLocation" x="530" y="390"/>
         </scene>
-        <!--View Controller - Space-->
-        <scene sceneID="nKu-hQ-fej">
+        <!--Page View Controller - Space-->
+        <scene sceneID="P8Q-9c-82I">
             <objects>
-                <viewController id="LZQ-lA-Y2x" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0RR-8d-5NT"/>
-                        <viewControllerLayoutGuide type="bottom" id="5uz-BF-5TT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0z3-Sp-U0d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Space" id="LGH-VU-2cd"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cnU-nT-68j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="4XM-el-DER" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Space" id="KfP-t0-8Kv"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cEB-Xf-8QV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="86"/>
+            <point key="canvasLocation" x="968" y="97"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="18Y-8I-GBo">
@@ -239,6 +227,12 @@
             <point key="canvasLocation" x="-322" y="-173"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about" width="306" height="517"/>
+        <image name="join" width="305" height="517"/>
+        <image name="meet" width="305" height="517"/>
+        <image name="space" width="305" height="517"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
