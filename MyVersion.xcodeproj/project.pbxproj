@@ -442,6 +442,7 @@
 				1FD274371937E7CD00EAD398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FD274381937E7CD00EAD398 /* Build configuration list for PBXNativeTarget "MyVersionTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +451,7 @@
 				1FD2743A1937E7CD00EAD398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
