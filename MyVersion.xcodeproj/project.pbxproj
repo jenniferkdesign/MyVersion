@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F112679194134590064C171 /* SBSMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F112676194134590064C171 /* SBSMember.m */; };
+		1F11267A194134590064C171 /* SBSMemberDatastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F112678194134590064C171 /* SBSMemberDatastore.m */; };
+		1F11267F194134A20064C171 /* SBSPeopleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11267C194134A20064C171 /* SBSPeopleListViewController.m */; };
+		1F112680194134A20064C171 /* SBSPersonDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11267E194134A20064C171 /* SBSPersonDetailsViewController.m */; };
 		1FD2740D1937E7CD00EAD398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD2740C1937E7CD00EAD398 /* Foundation.framework */; };
 		1FD2740F1937E7CD00EAD398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD2740E1937E7CD00EAD398 /* CoreGraphics.framework */; };
 		1FD274111937E7CD00EAD398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD274101937E7CD00EAD398 /* UIKit.framework */; };
@@ -33,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F112675194134590064C171 /* SBSMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSMember.h; sourceTree = "<group>"; };
+		1F112676194134590064C171 /* SBSMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSMember.m; sourceTree = "<group>"; };
+		1F112677194134590064C171 /* SBSMemberDatastore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSMemberDatastore.h; sourceTree = "<group>"; };
+		1F112678194134590064C171 /* SBSMemberDatastore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSMemberDatastore.m; sourceTree = "<group>"; };
+		1F11267B194134A20064C171 /* SBSPeopleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSPeopleListViewController.h; sourceTree = "<group>"; };
+		1F11267C194134A20064C171 /* SBSPeopleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSPeopleListViewController.m; sourceTree = "<group>"; };
+		1F11267D194134A20064C171 /* SBSPersonDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSPersonDetailsViewController.h; sourceTree = "<group>"; };
+		1F11267E194134A20064C171 /* SBSPersonDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSPersonDetailsViewController.m; sourceTree = "<group>"; };
 		1FD274091937E7CD00EAD398 /* MyVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD2740C1937E7CD00EAD398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FD2740E1937E7CD00EAD398 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F112674194134380064C171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F112675194134590064C171 /* SBSMember.h */,
+				1F112676194134590064C171 /* SBSMember.m */,
+				1F112677194134590064C171 /* SBSMemberDatastore.h */,
+				1F112678194134590064C171 /* SBSMemberDatastore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1FD274001937E7CD00EAD398 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +132,11 @@
 		1FD274121937E7CD00EAD398 /* MyVersion */ = {
 			isa = PBXGroup;
 			children = (
+				1F11267B194134A20064C171 /* SBSPeopleListViewController.h */,
+				1F11267C194134A20064C171 /* SBSPeopleListViewController.m */,
+				1F11267D194134A20064C171 /* SBSPersonDetailsViewController.h */,
+				1F11267E194134A20064C171 /* SBSPersonDetailsViewController.m */,
+				1F112674194134380064C171 /* Model */,
 				1FD2741B1937E7CD00EAD398 /* JKWAppDelegate.h */,
 				1FD2741C1937E7CD00EAD398 /* JKWAppDelegate.m */,
 				1FD2743B1937E9B100EAD398 /* Main.storyboard */,
@@ -244,7 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F112680194134A20064C171 /* SBSPersonDetailsViewController.m in Sources */,
+				1F112679194134590064C171 /* SBSMember.m in Sources */,
 				1FD274191937E7CD00EAD398 /* main.m in Sources */,
+				1F11267F194134A20064C171 /* SBSPeopleListViewController.m in Sources */,
+				1F11267A194134590064C171 /* SBSMemberDatastore.m in Sources */,
 				1FD2741D1937E7CD00EAD398 /* JKWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
